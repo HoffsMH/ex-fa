@@ -9,7 +9,7 @@ defmodule JaMap do
       iex> file_descriptor = "file"
       "file"
       iex> JaMap.gen_file_entry(file_descriptor)
-      %JaMap{files: []}
+      %{content: "some text", name: "file", type: :file}
   """
 
   def gen_file_entry(value) do
