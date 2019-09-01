@@ -13,7 +13,6 @@ defmodule JaMap do
   """
 
   def gen_file_entry(value) do
-    x = @path_module
     with full_name <- @path_module.expand(value) do
       if @file_module.regular?(full_name) do
         %{
