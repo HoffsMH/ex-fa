@@ -1,9 +1,9 @@
-defmodule Ja.MixProject do
+defmodule Fa.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :ja,
+      app: :fa,
       version: "0.1.0",
       elixir: "~> 1.9",
       elixirc_paths: elixirc_paths(Mix.env()),

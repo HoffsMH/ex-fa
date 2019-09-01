@@ -1,6 +1,6 @@
 use Mix.Config
-config :ja, File, File
-config :ja, Path, Path
+config :fa, File, File
+config :fa, Path, Path
 
 # You can also configure a 3rd-party app:
 #

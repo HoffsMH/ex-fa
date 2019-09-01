@@ -1,14 +1,14 @@
-defmodule JaMap do
+defmodule FaMap do
   defstruct files: []
 
-  @file_module Application.get_env(:ja, File)
-  @path_module Application.get_env(:ja, Path)
+  @file_module Application.get_env(:fa, File, File)
+  @path_module Application.get_env(:fa, Path, Path)
 
 
   @doc """
       iex> file_descriptor = "file"
       "file"
-      iex> JaMap.gen_file_entry(file_descriptor)
+      iex> FaMap.gen_file_entry(file_descriptor)
       %{content: "some text", name: "file", type: :file}
   """
 

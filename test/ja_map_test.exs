@@ -1,4 +1,4 @@
-defmodule JaMapTest do
+defmodule FaMapTest do
   use ExUnit.Case
-  doctest JaMap
+  doctest FaMap
 end
