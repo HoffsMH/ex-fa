@@ -21,9 +21,7 @@ defmodule Fa.MixProject do
   end
 
   defp escript do
-    [
-      {:stream_data, "~> 0.4.2", only: :test}
-    ]
+    [main_module: Fa.CLI]
   end
 
   # Run "mix help deps" to learn about dependencies.
